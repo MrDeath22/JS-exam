@@ -1,0 +1,33 @@
+body {
+   height: 80vh;
+   padding: 50px 100px;
+   background: #2C2C2C;
+   transition: all 0.3s ease;
+}
+
+span {
+   position: absolute;
+   top: 25%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 20px 30px;
+   background: #fff;
+}
+
+.container {
+   position: absolute;
+   bottom: 20%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: none;
+   flex-flow: row wrap;
+   padding: 30px;
+   background: #363636;
+}
+
+.box {
+   width: 120px;
+   height: 120px;
+   margin: 0 10px;
+   cursor: pointer;
+}
